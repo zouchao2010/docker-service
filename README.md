@@ -34,3 +34,19 @@ docker start|stop|restart docker-service
 ## exec(使用已运行的容器执行命令)
 ```shell
 docker exec -it docker-service /bin/bash
+
+```
+## 结果
+docker stop|restart 发送的信号都是15
+```shell
+[I 150805 01:58:52 service:25] Service Exit! signal:15
+
+```
+
+Ctrl+C 发送的信号是2
+```shell
+[I 150805 02:04:52 service:25] Service Exit! signal:2
+
+```
+
+
