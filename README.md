@@ -38,6 +38,7 @@ docker exec -it docker-service /bin/bash
 ```
 ## 结果
 docker stop|restart 发送的信号都是15
+
 ```shell
 [I 150805 01:58:52 service:25] Service Exit! signal:15
 
